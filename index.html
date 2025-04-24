@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./main.js" defer></script>
+
+    <title>Stars</title>
+</head>
+<body>
+
+    <nav class="menu-principal">
+
+
+        <div class="menu-links">
+            <img src="./img/logo.png" class="logo">
+            <img src="./img/conta.png" class="logo">
+            <img src="./img/camera (2).png" class="logo">
+            <input type="text" name="ms" class="busca-topo" placeholder="Pesquisa">
+
+            <div class="menu-icons">
+                <img src="./img/notificacoes.png"  alt="">
+                <img src="./img/chat.png" alt="">
+                
+            </div>
+
+        </div>
+    </nav>
+    
+    <section class="corpo-principal">
+        <div class="conteudo-geral">
+
+            <div class="coluna-esquerda">
+
+                <div class="status-destaques">
+
+                    <div class="item-destaque">
+
+                        <div class="add-story">
+                            <img src="./img/add-story.png" alt="">
+                        </div>
+                        <p class="nome-do-usuario">Your Story</p>
+                    </div>
+
+                    <div class="item-destaque">
+
+                        <div class="miniatura-perfil">
+                            <img src="./img/aline.webp" alt="">
+                        </div>
+                        <p class="nome-do-usuario">Aline</p>
+                    </div>
+
+                    <div class="item-destaque">
+
+                        <div class="miniatura-perfil">
+                            <img src="./img/jonathan.webp" alt="">
+                        </div>
+                        <p class="nome-do-usuario">Jonathan</p>
+                    </div>
+
+                    <div class="item-destaque">
+
+                        <div class="miniatura-perfil">
+                            <img src="./img/mariajo.webp" alt="">
+                        </div>
+                        <p class="nome-do-usuario">MariaJo</p>
+                    </div>
+
+                    <div class="item-destaque">
+
+                        <div class="miniatura-perfil">
+                            <img src="./img/goto.webp" alt="">
+                        </div>
+                        <p class="nome-do-usuario">GotoMar</p>
+                    </div>
+
+                    <div class="item-destaque">
+
+                        <div class="miniatura-perfil">
+                            <img src="./img/kimberly.webp" alt="">
+                        </div>
+                        <p class="nome-do-usuario">Kimberly</p>
+                    </div>
+
+                </div>
+
+                <div class="postagem">
+
+                    <div class="informacoes">
+
+                        <div class="usuario">
+                            <div class="miniatura-perfil">
+                                <img src="./img/mariajo.webp" alt="">
+                            </div>
+                            <p class="nome-do-usuario">MariaJo</p>
+                        </div>
+
+                        <img src="./img/tres-pontos.png" alt="" class="opcoes">
+
+                    </div>
+
+                    <img src="./img/imagem-post.png" alt="" class="capa-post">
+                    <div class="conteudo-da-postagem">
+                        
+
+                        <div class="icons-comentario">
+                           <img src="./img/star-coment.png" id="like-btn" onclick="revelarCor()">
+                            <img src="./img/coments.png" alt="Imagem" onclick="revelarConteudo()">
+                            <img src="./img/enviar-coment.png">
+                        </div>
+
+
+                        <p class="curtidas">10.000 curtidas</p>
+                        <p class="descricao">
+                            <spam>MariaJo</spam>
+                            Art is a super felling. I love what i do! #ArteIsEverthing 
+                        </p>
+                        <p class="tempo-post"> 7 minutos</p>
+                    </div>
+
+                    <div class="conteudo-oculto" id="conteudo">
+                        <div class="titulo-comentario">
+                            <p>Comments</p>
+                        </div>
+                        
+                        <div class="kim">
+                            <img src="./img/kimberly.webp">
+                            <p>Kimberly</p> 
+                            <p>So pretty!</p>
+                            <h3>Answer</h3>
+                            <div class="linha"></div>
+
+                        </div>
+                
+                        <div class="jon">
+                            <img src="./img//jonathan.webp">
+                            <p>Jonathan</p>
+                            <p>Art is everything!!</p>
+                            <h3>Answer</h3>
+                            <div class="linha"></div>
+
+                        </div>
+
+                        <div class="aline">
+                            <img src="./img/aline.webp">
+                            <p>Aline</p>
+                            <p>Oh you are so creative girl!</p>
+                            <h3>Answer</h3>
+                            <div class="linha"></div>
+
+                        </div>
+
+                        <div class="comentar">
+                            <img src="./img/add-story.png">
+                            <p>You</p>
+                        </div>
+
+                    </div>
+
+                    <div class="comentario-postagem">
+                        <img src="./img/person.png" alt="" class="icon">
+                        <img src="./img/emoji.png" alt="" class="icon">
+                        <img src="./img/gif.png" alt="" class="icon">
+                        <input type="text" class="comentario-msg" name="msg" placeholder="Adicionar comentário...">
+                        <button class="comentario-btn" type="submit">Postar</button>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+    
+    </section>
+</body>
+</html>
