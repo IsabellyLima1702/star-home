@@ -36,14 +36,13 @@ function criarPost(link){ // Recebe o link da imagem
     const comentario = document.createElement('h3')
     const data = document.createElement ('p')
     const user = document.createElement('p')
-    const comentar = document.createElement('input')
-
+    
     novaImg.src = link.imagem// Cria a nova image, com a link da foto do API 
     local.textContent = link.local
     postagem.classList = 'postagem'
     comentario.textContent = link.descricao 
     data.textContent = link.dataPublicacao
-    user.textContent = link.id
+    user.textContent = link.id   
 
 postagem.appendChild(user)
 postagem.appendChild(local)
@@ -51,7 +50,6 @@ postagem.appendChild(novaImg)
 postagem.appendChild(comentario)
 postagem.appendChild(data)
 post.appendChild(postagem)
-
 }
 
 function comentarios(){
@@ -73,5 +71,4 @@ async function preencherFotos(){
     publication.forEach(criarPost)
 }
 
- 
- preencherFotos()
+preencherFotos()

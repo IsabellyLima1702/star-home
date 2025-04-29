@@ -117,9 +117,9 @@ body{
     display: none;
 }
 
-.tudoPostagem{
+/* .tudoPostagem{
     background-image: url('./imgs/header-img.png');
-}
+} */
 
 .galeria{
     width: 80px;
@@ -156,7 +156,7 @@ body{
 
 .postagem{
     width: 100%;
-    height: 79vh;
+    height: 77vh;
     background-image: url('./imgs/header-img.png');
     border: 1px solid #dfdfdf;
     margin-top: 40px;
@@ -164,14 +164,14 @@ body{
 
 .postagem h2{
     font-size: 3vh;
-    padding-top: 2vh;
+    padding-top: 1vh;
     padding-left: 3vh;
 }
 
 .postagem h3{
     font-size: 3.5vh;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
-    padding-top: 3vh;
+    padding-top: 2vh;
     padding-left: 3vh;
 }
 
@@ -179,6 +179,13 @@ body{
     font-size: 2vh;
     padding-left: 3vh;
     padding-top: 2vh;
+}
+
+.postagem input{
+    margin-top: 3vh;
+    margin-left: 2vw;
+    height: 3vh;
+    width: 25vw;
 }
 
 .comentario-msg{
@@ -197,14 +204,14 @@ body{
     padding: 3vh;
 }
 
-.comentario-btn{
-    width: 70px;
+.postagem button{
+    width: 15vw;
     height: 10vh;
     background: none;
-    border: none;
+    border-radius: solid 1vh rgb(234, 73, 73);
     outline: none;
     text-transform: capitalize;
-    font-size: 17px;
+    font-size: 2vh;
     color: rgb(17, 108, 160);
     cursor: pointer;
 }
